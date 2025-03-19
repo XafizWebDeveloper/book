@@ -1,101 +1,143 @@
 <!DOCTYPE html>
 <html lang="uz">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vaqt qadri</title>
     <style>
-        /* Umumiy sozlamalar */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
+      /* Umumiy sozlamalar */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
 
-        /* Sahifa markazlashtirilgan bo'lsin */
-        .container {
-            width: 90%;
-            max-width: 800px;
-            margin: 20px auto;
-            background-color: hsl(220, 23%, 95%);
-            padding: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
+      /* Sahifa markazlashtirilgan bo'lsin */
+      .container {
+        width: 90%;
+        max-width: 800px;
+        margin: 20px auto;
+        background-color: hsl(220, 23%, 95%);
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+      }
 
-        /* Matnni biroz oraliq bilan joylash */
+      /* Matnni biroz oraliq bilan joylash */
+      h1 {
+        text-align: center;
+        color: #333;
+        font-size: 2em;
+        margin-bottom: 20px;
+      }
+
+      p {
+        color: #555;
+        line-height: 1.6;
+        font-size: 1em;
+      }
+
+      /* Adaptiv dizayn (mobil telefon uchun) */
+      @media screen and (max-width: 600px) {
         h1 {
-            text-align: center;
-            color: #333;
-            font-size: 2em;
-            margin-bottom: 20px;
+          font-size: 1.5em;
         }
 
         p {
-            color: #555;
-            line-height: 1.6;
-            font-size: 1em;
+          font-size: 0.9em;
+        }
+      }
+
+      /* Adaptiv dizayn (kompyuter ekranlari uchun) */
+      @media screen and (min-width: 601px) {
+        h1 {
+          font-size: 2.5em;
         }
 
-        /* Adaptiv dizayn (mobil telefon uchun) */
-        @media screen and (max-width: 600px) {
-            h1 {
-                font-size: 1.5em;
-            }
-
-            p {
-                font-size: 0.9em;
-            }
+        p {
+          font-size: 1.1em;
         }
-
-        /* Adaptiv dizayn (kompyuter ekranlari uchun) */
-        @media screen and (min-width: 601px) {
-            h1 {
-                font-size: 2.5em;
-            }
-
-            p {
-                font-size: 1.1em;
-            }
-        }
+      }
     </style>
-</head>
-<body>
-
+  </head>
+  <body>
     <div class="container">
-        <h1>Аgar Siz ushbu soʼzlarni oʼqiyotgan boʼlsangiz, bu shunchaki emas, demak Siz nimanidir qidirayapsiz</h1>
-        <p>
-            Hayotingizning qaysidir bir jihatlarini oʼzgartirmoqchisiz. Nimalardandir koʼnglingiz toʼlmasdan, savollaringizga javob topmoqchisiz. 
-        </p>
-        <p>
-            Men Siz bilan birgaman. Men ham xuddi Siz kabi insonman. Quyidagi soʼzlarimni erta tongdan yozayapman. 
-        </p>
+      <h1>
+        Аgar Siz ushbu soʼzlarni oʼqiyotgan boʼlsangiz, bu shunchaki emas, demak
+        Siz nimanidir qidirayapsiz
+      </h1>
+      <p>
+        Hayotingizning qaysidir bir jihatlarini oʼzgartirmoqchisiz.
+        Nimalardandir koʼnglingiz toʼlmasdan, savollaringizga javob
+        topmoqchisiz.
+      </p>
+      <p>
+        Men Siz bilan birgaman. Men ham xuddi Siz kabi insonman. Quyidagi
+        soʼzlarimni erta tongdan yozayapman.
+      </p>
 
-        <p>
-            Vaqt. Bolalikda cheksizdek tuyuladi. Ota-onang davrida oʼynab kulasan. Oʼzing 40 ga kirganingda bolalaring bilan suhbatlashishga, oʼynashga, ular bilan birga dars qilishga vaqt topmay qolasan. Bolalarini yaxshi koʼradigan, ularga oʼzim bilim berishim kerak, oʼgʼlimni boks bilan yoki biror sport turi bilan shugʼullantirishim kerak, birgalikda mashq qilishimiz kerak, deydigan ota shu narsalarga vaqt yetmayotganligidan yuragi siqiladi. “Qani edi, pul yetarli boʼlsa-yu, ish 8:30-9:00 larda boshlanib, 17:00 larda tugasa edi, hech boʼlmasa 18:30 dan 19:30 gacha oʼgʼlimga oʼrnak boʼlib, birgalikda sport bilan shugʼullanardim”, deb oʼylaydi. Lekin ishingiz ertalab 6:00 dan boshlanib, kech soat 22:00 da tugaydi. Ishga ketganingizda bolalaringiz uxlayotgan, ishdan kelganingizda ham uxlayotgan boʼladi.
-        </p>
+      <p>
+        Vaqt. Bolalikda cheksizdek tuyuladi. Ota-onang davrida oʼynab kulasan.
+        Oʼzing 40 ga kirganingda bolalaring bilan suhbatlashishga, oʼynashga,
+        ular bilan birga dars qilishga vaqt topmay qolasan. Bolalarini yaxshi
+        koʼradigan, ularga oʼzim bilim berishim kerak, oʼgʼlimni boks bilan yoki
+        biror sport turi bilan shugʼullantirishim kerak, birgalikda mashq
+        qilishimiz kerak, deydigan ota shu narsalarga vaqt yetmayotganligidan
+        yuragi siqiladi. “Qani edi, pul yetarli boʼlsa-yu, ish 8:30-9:00 larda
+        boshlanib, 17:00 larda tugasa edi, hech boʼlmasa 18:30 dan 19:30 gacha
+        oʼgʼlimga oʼrnak boʼlib, birgalikda sport bilan shugʼullanardim”, deb
+        oʼylaydi. Lekin ishingiz ertalab 6:00 dan boshlanib, kech soat 22:00 da
+        tugaydi. Ishga ketganingizda bolalaringiz uxlayotgan, ishdan
+        kelganingizda ham uxlayotgan boʼladi.
+      </p>
 
-        <p>
-            Sizni yoshingiz hozir 15, 20, 30 dadir. Maslahatim oʼz kasbingizni mutaxassisi boʼling. Moliyaviy erkinlik deganda nimani tushunasiz?. Moliyaviy erkinlikka erishgan odamlarni koʼrganmisiz? Ular sistema yaratishadi, misol uchun tashkilotmi, korxona yoki biznes ochishadi. Ularga oʼzlari ushbu tashkilotda rahbar boʼlish havas ham emas, qiziq ham emas. Biznesiga oʼz ishini mutaxassislarini tayinlashadi. Biznes ketaveradi, pul kelaveradi. Moliyaviy erkinlikka erishgan insonlar sayohat qilib, oʼzlari sevgan mashgʼulot - xobbisi bilan shugʼullanishadi.
-        </p>
+      <p>
+        Sizni yoshingiz hozir 15, 20, 30 dadir. Maslahatim oʼz kasbingizni
+        mutaxassisi boʼling. Moliyaviy erkinlik deganda nimani tushunasiz?.
+        Moliyaviy erkinlikka erishgan odamlarni koʼrganmisiz? Ular sistema
+        yaratishadi, misol uchun tashkilotmi, korxona yoki biznes ochishadi.
+        Ularga oʼzlari ushbu tashkilotda rahbar boʼlish havas ham emas, qiziq
+        ham emas. Biznesiga oʼz ishini mutaxassislarini tayinlashadi. Biznes
+        ketaveradi, pul kelaveradi. Moliyaviy erkinlikka erishgan insonlar
+        sayohat qilib, oʼzlari sevgan mashgʼulot - xobbisi bilan
+        shugʼullanishadi.
+      </p>
 
-        <p>
-            Bu fikrlar Sizga notanishday, balki hatto notoʼgʼriday ham tuyulayotgandir. Vaqt oʼtib yoshingiz 40 dan oshgan sari ushbu soʼzlarni maʼnosini oldinroq tushunib yetmaganingizga achinasiz. 
-            Siz harakat qilayotgan yoʼl Siz kutgan natijalarni bermayotgan boʼlsa, harakatlar rejasini oʼzgartiring. Umr rejasini tuzing. Sinab koʼrish kerak. Tajriba qilib koʼrish kerak. Tajriba toʼgʼrisida menga 2012 yillarda bir kishi ajoyib fikr aytgan edi: “Biron narsa qilishda bunday yoʼl tuting, oʼxshamasa, boshqacharoq yoʼl tuting, yana oʼxshamasa yana boshqa usullarni qoʼllab koʼring. Har doim ham sizga maʼqul boʼlgan usul masalani yechishda toʼgʼri kelavermaydi. Sinab koʼring. Tajriba qiling”.
-            Siz gʼolib boʼlishingiz mumkin. Yoki umuman esdan ham chiqib ketishingiz mumkin. Oʼqing, oʼz ustingizda ishlang va esdan chiqarmang, oʼz ustida ishlash, takomillashish 1-2 yillik jarayon emas, bir umrlik jarayon. Harakatdan, oʼrganishdan toʼxtadingizmi, atrofdagilardan ortda qolib keta boshlaysiz. Buyogʼi oʼzingizni hohishingiz... Hozirgiday bir xil yashashmi? Yoki bir muddat qiynalib keyin muvaffaqiyat choʼqqisiga chiqishmi? Buni oʼzingiz hal qilasiz. Muvaffaqiyat choʼqqisida Sizning orzularingiz, imkoniyatlaringiz mavjud. Men ishonaman, Siz oʼzingiz istagan muvaffaqiyatga erishasiz. Qiyinchilik bilan boʼlsada muvaffaqiyatga erishsangiz, barcha shubha gumonlar, oʼzingizga boʼlgan ishonchsizlik Sizni tark etadi.
-            Аgar Siz shu sahifada ekansiz, demak kurashadigan narsangiz, qandaydir rejangiz bor. Ularni amalga oshirish uchun ketdik.
+      <p>
+        Bu fikrlar Sizga notanishday, balki hatto notoʼgʼriday ham
+        tuyulayotgandir. Vaqt oʼtib yoshingiz 40 dan oshgan sari ushbu soʼzlarni
+        maʼnosini oldinroq tushunib yetmaganingizga achinasiz. Siz harakat
+        qilayotgan yoʼl Siz kutgan natijalarni bermayotgan boʼlsa, harakatlar
+        rejasini oʼzgartiring. Umr rejasini tuzing. Sinab koʼrish kerak. Tajriba
+        qilib koʼrish kerak. Tajriba toʼgʼrisida menga 2012 yillarda bir kishi
+        ajoyib fikr aytgan edi: “Biron narsa qilishda bunday yoʼl tuting,
+        oʼxshamasa, boshqacharoq yoʼl tuting, yana oʼxshamasa yana boshqa
+        usullarni qoʼllab koʼring. Har doim ham sizga maʼqul boʼlgan usul
+        masalani yechishda toʼgʼri kelavermaydi. Sinab koʼring. Tajriba qiling”.
+        Siz gʼolib boʼlishingiz mumkin. Yoki umuman esdan ham chiqib ketishingiz
+        mumkin. Oʼqing, oʼz ustingizda ishlang va esdan chiqarmang, oʼz ustida
+        ishlash, takomillashish 1-2 yillik jarayon emas, bir umrlik jarayon.
+        Harakatdan, oʼrganishdan toʼxtadingizmi, atrofdagilardan ortda qolib
+        keta boshlaysiz. Buyogʼi oʼzingizni hohishingiz... Hozirgiday bir xil
+        yashashmi? Yoki bir muddat qiynalib keyin muvaffaqiyat choʼqqisiga
+        chiqishmi? Buni oʼzingiz hal qilasiz. Muvaffaqiyat choʼqqisida Sizning
+        orzularingiz, imkoniyatlaringiz mavjud. Men ishonaman, Siz oʼzingiz
+        istagan muvaffaqiyatga erishasiz. Qiyinchilik bilan boʼlsada
+        muvaffaqiyatga erishsangiz, barcha shubha gumonlar, oʼzingizga boʼlgan
+        ishonchsizlik Sizni tark etadi. Аgar Siz shu sahifada ekansiz, demak
+        kurashadigan narsangiz, qandaydir rejangiz bor. Ularni amalga oshirish
+        uchun ketdik.
+      </p>
 
-        </p>
+      <p>
+        Yuqoridagi fikrlar toʼgʼri boʼlsa,
+        <a href="https://t.me/motivatsiyayuksalish">telegram kanal</a> va
+        saytning rivoji uchun doʼstlaringiz bilan boʼlishing. Keyingi
+        sahifalarda yanayam qiziqroq mavzularda suhbatlashamiz.
+      </p>
 
-        <p>
-            Yuqoridagi fikrlar toʼgʼri boʼlsa, <a href="https://t.me/motivatsiyayuksalish">telegram kanal</a> va saytning rivoji uchun doʼstlaringiz bilan boʼlishing. Keyingi sahifalarda yanayam qiziqroq mavzularda suhbatlashamiz.
-        </p>
-
-        <p>
-          
-        </p>
+      <p></p>
     </div>
-
-</body>
+  </body>
 </html>
